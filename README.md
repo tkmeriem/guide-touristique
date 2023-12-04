@@ -1,5 +1,5 @@
-# guide-touristique
-Création d'un site web dans le cadre d'un projet universitaire.
-Notre site sert de guide touristique pour les voyageurs souhaitant visiter l'Indonésie.
+# Guide touristique
+Découvrez l'Indonésie grâce à notre guide touristique, qui vous offrira les informations les plus importantes pour y passer un séjour inoubliable.
 
+Site web créé dans le cadre d'un projet universitaire.
 Par Meriem TAIEB KHERAFA et Mokhaled AL AFTAN.
