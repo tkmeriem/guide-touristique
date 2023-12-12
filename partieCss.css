@@ -1,7 +1,3 @@
-body{
-    background-color: #9eca9c;
-}
-
 
 .modeflex{
     display: flex;
@@ -13,7 +9,6 @@ body{
 }
 
 .texte{
-    background-color : #839073;
     width: 50%;
     height: 50%;
     margin: 0;
