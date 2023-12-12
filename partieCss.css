@@ -15,12 +15,15 @@ body{
 .texte{
     background-color : #839073;
     width: 50%;
-	height: 50%;
+    height: 50%;
+    margin: 0;
     padding: 20px;
 }
 .image_secondaire{
     width: 50%;
-    
+    height: 50%;
+    margin: 0;
+	
 }
 .one {
     flex: 1;
