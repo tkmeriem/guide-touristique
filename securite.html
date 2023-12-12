@@ -4,12 +4,32 @@
 
     	<meta charset="UTF-8">
     	<title>Titre de la page</title>
-    	<link href="partieCss.css" rel="stylesheet" media="text/css">
-	
+    	<link href="pagecss.css" rel="stylesheet" media="text/css">
+	<link href="maincss.css" rel="stylesheet" media="text/css">
      	<link href="accueilcss.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
-		<header></header>
+	/*menu*/
+	<nav>
+        <p id="logo">Titre</p>
+        <ul>
+            <li><a href="index.html"> Accueil </a></li>
+            <li><a href="pourquoi.html"> Pourquoi l'Indonésie ? </a></li>
+            <li><a href="#"> Quoi y faire </a>
+                <ul>
+                    <li><a href="monument.html"> Lieux </a></li>
+                    <li><a href="culinaire.html"> Restaurants </a></li>
+                    <li><a href="activites.html"> Loisirs </a></li>
+                    <li><a href="hotels.html"> Hotels </a></li>
+                    <li><a href="evenements.html"> Évènements </a></li>
+                </ul>
+
+            </li>
+            <li><li><a href="securite.html"> Sécurité </a></li>
+            <li><li><a href="avis.html"> Avis </a></li>
+        </ul>
+    	</nav>
+	   
 		<div class="image_principale">
 			<img src="img/image_principale_sur_la_securite.jpg" alt="image_d'un_camera de surveillance">
 		</div>
@@ -36,6 +56,6 @@
 				Le trafic de drogue fait l’objet de condamnations très lourdes, allant jusqu’à la peine de mort.
 			</p>
 		</div>
-		<footer></footer>
+		<footer>Un problème? Une question? <a class="lien" href="mailto:tkmeriem@yahoo.com">Contactez-nous.</a></footer> 
    </body>
 </html>
