@@ -1,0 +1,16 @@
+
+div h1{
+    margin: 20px;
+    text-align: center
+}
+
+div p {
+    margin: 40px;
+    font-size:20px; 
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+}
+       
