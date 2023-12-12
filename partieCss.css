@@ -1,0 +1,30 @@
+body{
+    background-color: #7CAE7A;
+}
+
+
+.modeflex{
+    display: flex;
+}
+.image_principale{
+    text-align: center;
+    width: 50%;
+	height: 50%;
+}
+
+.texte{
+    background-color : #839073;
+    width: 50%;
+	height: 50%;
+    padding: 20px;
+}
+.image_secondaire{
+    width: 50%;
+    
+}
+.one {
+    flex: 1;
+}
+.two {
+    flex: 1;
+}
