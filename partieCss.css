@@ -1,6 +1,7 @@
 
 .modeflex{
     display: flex;
+    flex-wrap: wrap;
 }
 .image_principale{
     text-align: center;
