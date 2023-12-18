@@ -25,15 +25,11 @@
     margin-right: 0%;
 }
 
-
-.modeflex{
-    display: flex;
-    flex-wrap: wrap;
-}
 .image_principale{
     width: 75%;
 	height: 75%;
     display: block;
+    padding-top: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,20 +43,39 @@
     font-size: 15px;
     text-align: justify;
 }
+
+.texte b{
+    font-size: 20px;
+}
+
 .image_secondaire_cote_gauche{
     margin-left: auto;
     display: block;
+    width: 40%;
+    height: 90%;
 }
 
 .intro{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
     background-color: antiquewhite;
     padding: 2%;
 }
+
 .video{
     text-align: center;
     margin: 2%;
 }
+
+.image{
+    width: 40%;
+    height: 90%;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
