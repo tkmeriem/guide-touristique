@@ -1,4 +1,9 @@
 
+.partie{
+    margin-left: 20px;
+    margin-right: 600px;
+    background-color:antiquewhite;
+}
 
 .image_cote_gauche{
     display: flex;
@@ -10,6 +15,7 @@
 }
 
 .image_cote_droite{
+    font-family: Tahoma, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
     margin : 0%;
@@ -37,10 +43,24 @@
     margin-top: auto;
     width: 50%;
     height: 50%;
-    padding: 20px;
+    margin-left: 40px;
     font-size: 15px;
+    text-align: justify;
 }
 .image_secondaire_cote_gauche{
     margin-left: auto;
     display: block;
+}
+
+.intro{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: antiquewhite;
+    padding: 2%;
+}
+.video{
+    text-align: center;
+    margin: 2%;
 }
