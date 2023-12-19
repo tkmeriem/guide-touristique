@@ -113,24 +113,34 @@ tbody tr, td, th {
     border: 1px solid #ddd;
 }
 
-@media screen and(max-width: 1500px) {
-    .div-video-body{
-        height: 10vh;
-    }
-}
-
 @media screen and (max-width: 1100px){
     
     .div-video-body{
-        height: 70vh;
+        height: 35vh;
+    }
+    
+    .intro{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: antiquewhite;
+        padding: 2%;
+        font-size: 40px;
     }
 
     .texte{
-        font-size: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left:  auto;
+        margin-right:  auto;
+        width: 90%;
+        height: 90%;
+        font-size: 40px;
+        text-align: justify;
     }
 
-    .texte{
-        font-size: 35px;
+    .texte b{ 
+        font-size: 60px;
     }
     
     .image_cote_gauche{
@@ -155,16 +165,6 @@ tbody tr, td, th {
         margin-bottom: 5%;
     }
 
-    .texte{
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-left:  auto;
-        margin-right:  auto;
-        width: 90%;
-        height: 90%;
-        font-size: 15px;
-        text-align: center;
-    }
     .image{
         width: 100%;
         margin-left: auto;
