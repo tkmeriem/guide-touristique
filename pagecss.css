@@ -1,4 +1,3 @@
-
 .partie{
     margin-left: 20px;
     margin-right: 600px;
@@ -79,3 +78,25 @@
     margin: 2%;
 }
 
+.table-style  {
+    border-collapse: collapse;
+    min-width: 400px;
+    cursor: pointer;
+    margin: 20px auto;
+    border: 2px solid #394053;
+}
+
+thead tr{
+    background-color: #839073 ;
+    text-align: center;
+}
+
+th, td{
+    background-color: #9eca9c;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
