@@ -125,6 +125,14 @@ tbody tr, td, th {
         height: 70vh;
     }
 
+    .texte{
+        font-size: 30px;
+    }
+
+    .texte{
+        font-size: 35px;
+    }
+    
     .image_cote_gauche{
         display: flex;
         flex-direction: column;
