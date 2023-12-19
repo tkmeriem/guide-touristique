@@ -118,6 +118,9 @@ tbody tr, td, th {
     .div-video-body{
         height: 35vh;
     }
+    th, td{
+        padding: 30px 20px;
+    }
     
     .intro{
         text-align: center;
